@@ -1,6 +1,5 @@
 # example.rb
 
-# sudo gem install multi
 require 'multi'
 require "test/unit"
 
