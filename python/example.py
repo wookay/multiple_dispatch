@@ -13,11 +13,11 @@ def f(a):
   return a+"bc"
 
 @dispatch(int, str)
-def f(i, s):
+def f(a, b):
   return "int,string"
 
 @dispatch(str, int)
-def f(s, i):
+def f(a, b):
   return "string,int"
 
 
